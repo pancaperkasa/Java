@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+structure project
+---------------------------------------------------------------
+Web Pages
+|____ WEB-INF
+|      |___ web.xml
+|
+|____ index.jsp
+|____ form_buku.jsp
+|____ form_mahasiswa.jsp
+|____ lihatdata_buku.jsp
+
+
+Source Packages
+|____DAOmhs
+|    |___ Koneksi.java
+|    |___ Mahasiswa.java
+|    |___ MahasiswaDAO.java
+|
+|____DAOperpus
+|    |___ Koneksi.java
+|    |___ Perpustakaan.java
+|    |___ PerpustakaanDAO.java
+|
+|____Service
+     |___ MahasiswaService.java
+     |___ PerpustakaanService.java
+
+Libraries
+|____ mysql-connector...
+|____ JDK ...
+|____ GlassFish Server 4.1.1
+
+
+---------------------------------------------------------------
